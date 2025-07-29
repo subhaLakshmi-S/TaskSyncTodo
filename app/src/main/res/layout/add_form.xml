@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Topic"
+            android:hint="@string/enter_topic"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/startDate"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/sharp_date_range_24"
+                android:focusable="false"
+                android:hint="Start Date"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/EndDate"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/sharp_date_range_24"
+                android:focusable="false"
+                android:hint="End Date"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/category"
+            android:icon="@drawable/sharp_arrow_drop_down_24"
+            android:padding="10dp"
+            android:spinnerMode="dropdown"
+            app:showAsAction="never" />
+
+        <Spinner
+            android:id="@+id/priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/cardview_default_radius"
+            android:layout_marginTop="10dp"
+            android:hint="@string/priority"
+            android:icon="@drawable/sharp_arrow_drop_down_24"
+            android:padding="10dp"
+            android:spinnerMode="dropdown"
+            app:showAsAction="never" />
+
+        <jp.wasabeef.richeditor.RichEditor
+            android:id="@+id/editContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/boldButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_format_bold_24" />
+
+            <ImageButton
+                android:id="@+id/italicButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/outline_format_italic_24" />
+
+            <ImageButton
+                android:id="@+id/underlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_format_underlined_24" />
+
+            <ImageButton
+                android:id="@+id/colorButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_format_color_text_24" />
+
+            <ImageButton
+                android:id="@+id/strikeThroughButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_format_strikethrough_24" />
+
+            <ImageButton
+                android:id="@+id/checkboxButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/checkbox_on_background" />
+
+            <ImageButton
+                android:id="@+id/BulletButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_send_24" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/contentError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content Error"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

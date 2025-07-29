@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "885296748518",
+    "project_id": "dailuytasktodoapp",
+    "storage_bucket": "dailuytasktodoapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885296748518:android:cea163eea7602f60afa827",
+        "android_client_info": {
+          "package_name": "com.todo.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885296748518-l058aeet9eal5r435vm2l3788t70ea6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl8dZbGF1JhSo5hg_ftD6-4H-IM0rz2xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885296748518-l058aeet9eal5r435vm2l3788t70ea6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

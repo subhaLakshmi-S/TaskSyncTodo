@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_fav"
+        android:title="@string/favourites" />
+    <item
+        android:id="@+id/nav_task"
+        android:title="@string/completed_task" />
+    <item
+        android:id="@+id/nav_group"
+        android:title="@string/group_a_list" />
+    <item
+        android:id="@+id/sort_date"
+        android:title="@string/sort_by_date" />
+    <item
+        android:id="@+id/sort_priority"
+        android:title="@string/sort_by_priority" />
+    <item
+        android:id="@+id/dark_mode"
+        android:title="@string/dark_mode" />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/baseline_logout_24"
+        app:showAsAction="never" />
+</menu>
+

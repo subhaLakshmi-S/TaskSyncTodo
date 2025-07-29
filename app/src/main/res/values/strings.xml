@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TaskSync</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="completed_task">Completed Task</string>
+    <string name="group_a_list">Group a List</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="create_button">create Button</string>
+    <string name="card_content">Card Content</string>
+    <string name="card_heading">Card_heading</string>
+    <string name="option_menu">option menu</string>
+    <string name="delete_optionMenu">Delete</string>
+    <string name="add_to_favorites_optionMenu">Add to Favorites</string>
+    <string name="mark_as_complete_optionMenu">Mark as Complete</string>
+    <string name="enter_topic">Enter Topic</string>
+    <string name="content">enter the content here</string>
+    <string name="enter_the_content_here">Enter the content here</string>
+    <string name="edit">Edit</string>
+    <string name="favorite_icon">Favorite icon</string>
+    <string name="completed_icon">completed_icon</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_priority">Sort by priority</string>
+    <string name="category">Choose category</string>
+    <string name="priority">Choose priority</string>
+    <string name="logout">Logout</string>
+
+<!--    <string-array name="category_array">-->
+<!--        <item>Personal</item>-->
+<!--        <item>Work</item>-->
+<!--        <item>Health</item>-->
+<!--        <item>Shopping</item>-->
+<!--        <item>Others</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="priority_array">-->
+<!--        <item>High</item>-->
+<!--        <item>Medium</item>-->
+<!--        <item>Low</item>-->
+<!--    </string-array>-->
+</resources>
