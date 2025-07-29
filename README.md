@@ -42,5 +42,7 @@
 ## 📦 How to Run the App
  
 1. Clone the repository:
-   ```bash git clone https://github.com/subhalakshmi-S/TaskSyncToDo.git
+    git clone https://github.com/subhalakshmi-S/TaskSyncToDo.git
+
+
 
